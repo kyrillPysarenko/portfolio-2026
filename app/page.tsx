@@ -19,7 +19,7 @@ const item = {
   show: { 
     y: 0, 
     opacity: 1,
-    transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } // Custom easing for "snap" feel
+    transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] as const } // Custom easing for "snap" feel
   },
 };
 
